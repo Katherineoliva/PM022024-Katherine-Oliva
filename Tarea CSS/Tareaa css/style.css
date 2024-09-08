@@ -1,0 +1,69 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Estilo de Títulos */
+h1, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Cuadro para Párrafos */
+p {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+button, a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover, a.button:hover {
+    background-color: #ff6347;
+}
+
+/* Sección Principal */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Enlaces a Redes Sociales */
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
